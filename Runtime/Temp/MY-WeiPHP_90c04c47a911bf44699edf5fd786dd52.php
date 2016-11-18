@@ -1,0 +1,3 @@
+<?php
+//000000000000a:22:{s:2:"id";s:1:"1";s:3:"uid";s:1:"2";s:11:"public_name";s:12:"BooBoo家园";s:9:"public_id";s:15:"gh_1e46ce961958";s:6:"wechat";s:13:"ljj520530love";s:13:"interface_url";N;s:12:"headface_url";N;s:4:"area";N;s:12:"addon_config";s:29:"{"Wecome":{"stype":"text:1"}}";s:12:"addon_status";N;s:5:"token";s:15:"gh_1e46ce961958";s:6:"is_use";s:1:"0";s:4:"type";s:1:"0";s:5:"appid";s:18:"wxfab3e4c7e8db2dfe";s:6:"secret";s:32:"8cf7ddca3dbadbaeda016dfcc1af7000";s:8:"group_id";s:1:"0";s:14:"encodingaeskey";s:0:"";s:8:"tips_url";N;s:6:"domain";N;s:7:"is_bind";s:1:"0";s:5:"cTime";N;s:24:"authorizer_refresh_token";N;}
+?>

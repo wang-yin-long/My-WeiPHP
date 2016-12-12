@@ -1,0 +1,1 @@
+a:9:{i:0;s:2:"id";i:1;s:10:"invite_uid";i:2;s:10:"friend_uid";i:3;s:7:"help_id";i:4;s:5:"cTime";i:5;s:5:"sn_id";i:6;s:10:"join_count";s:3:"_pk";s:2:"id";s:5:"_type";a:7:{s:2:"id";s:16:"int(10) unsigned";s:10:"invite_uid";s:7:"int(10)";s:10:"friend_uid";s:7:"int(10)";s:7:"help_id";s:7:"int(10)";s:5:"cTime";s:7:"int(10)";s:5:"sn_id";s:7:"int(10)";s:10:"join_count";s:7:"int(10)";}}

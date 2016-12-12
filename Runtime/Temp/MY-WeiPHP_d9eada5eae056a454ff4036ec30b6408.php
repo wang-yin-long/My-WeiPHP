@@ -1,0 +1,10 @@
+<?php
+//000000086400a:21:{s:2:"id";s:3:"155";s:4:"name";s:9:"help_open";s:5:"title";s:12:"帮拆礼包";s:6:"extend";s:1:"0";s:8:"relation";s:0:"";s:7:"need_pk";s:1:"1";s:10:"field_sort";s:132:"["title","start_time","end_time","limit_num","content","prize_num","status","collect_tips","share_icon","share_title","share_intro"]";s:11:"field_group";s:8:"1:基础";s:14:"attribute_list";N;s:13:"template_list";s:0:"";s:12:"template_add";s:0:"";s:13:"template_edit";s:0:"";s:9:"list_grid";s:392:"title:礼包名称
+status:状态
+prize_num:大礼包总数
+collect_num:大礼包领取
+limit_num:分享要求
+total:领取总数
+start_time:有效期
+id:操作:[EDIT]|编辑,prize_lists?id=[id]|获奖查询,share_lists?id=[id]|分享记录,sncode_lists?id=[id]|核销记录,[DELETE]|删除,preview?id=[id]|预览,index&_addons=HelpOpen&_controller=Wap&id=[id]&invite_uid=1|复制链接";s:8:"list_row";s:2:"10";s:10:"search_key";s:27:"title:请输入活动名称";s:11:"search_list";s:0:"";s:11:"create_time";s:10:"1443108580";s:11:"update_time";s:10:"1446429456";s:6:"status";s:1:"1";s:11:"engine_type";s:6:"MyISAM";s:5:"addon";s:8:"HelpOpen";}
+?>

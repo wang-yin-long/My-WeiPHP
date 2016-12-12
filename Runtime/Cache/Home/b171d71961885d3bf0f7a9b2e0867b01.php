@@ -64,7 +64,7 @@ var  UPLOAD_DIALOG_URL = "<?php echo U('home/File/uploadDialog',array('session_i
                 	<img src="/Public/Home/images/about/img/banner_pic.png?20150723"/>
                 </div>
             	<section class="login_box">
-                  <form class="login-form" action="/index.php?s=/Home/User/login.html" method="post">
+                  <form class="login-form" action="/index.php?s=/Home/User/login/from/1.html" method="post">
                           <div class="form_body" id="input_login" style="display:<?php if(C('SCAN_LOGIN')) echo 'none'; ?> ">
                                 <h6>欢迎使用WeiPHP!</h6>
                                 <div class="input_panel">

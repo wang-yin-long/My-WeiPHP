@@ -1,0 +1,10 @@
+<?php
+//000000086400a:21:{s:2:"id";s:4:"1149";s:4:"name";s:10:"weiba_post";s:5:"title";s:15:"微社区帖子";s:6:"extend";s:1:"0";s:8:"relation";s:0:"";s:7:"need_pk";s:1:"1";s:10:"field_sort";s:30:"["weiba_id","title","content"]";s:11:"field_group";s:8:"1:基础";s:14:"attribute_list";N;s:13:"template_list";s:0:"";s:12:"template_add";s:0:"";s:13:"template_edit";s:0:"";s:9:"list_grid";s:201:"id:帖子编号
+title:帖子标题
+weiba_id:所属版块
+post_uid:发帖人
+read_count:浏览数
+reply_count:回复数
+post_time|time_format:发帖时间
+ids:操作:[EDIT]|编辑,[DELETE]|删除";s:8:"list_row";s:2:"10";s:10:"search_key";s:27:"title:请输入标题搜索";s:11:"search_list";s:0:"";s:11:"create_time";s:10:"1463803589";s:11:"update_time";s:10:"1464405700";s:6:"status";s:1:"1";s:11:"engine_type";s:6:"MyISAM";s:5:"addon";s:5:"Weiba";}
+?>

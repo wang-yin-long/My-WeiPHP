@@ -1,0 +1,1110 @@
+[ 2016-11-19T14:13:40+08:00 ] 127.0.0.1 /index.php?s=/admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000955s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001286s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SELECT `value` FROM `wp_config` WHERE ( name="FOLLOW_YOUKE_UID" ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `wp_config` SET `value`='-9' WHERE ( name="FOLLOW_YOUKE_UID" ) [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: uid /Volumes/FILE/codes/MY-WeiPHP/ThinkPHP/Library/Think/Controller.class.php 第 524 行.
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0013s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='-9' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: -1 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = 0 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0006s ]
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0009s ]
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined offset: 14 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 14 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 60 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 60 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: HTTP_REFERER /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 139 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 14 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `wp_public_link` WHERE `uid` = 0  [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/PublicModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: res /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/PublicModel.class.php 第 52 行.
+SQL: SELECT `id`,`title` FROM `wp_addons` WHERE `status` = 1  [ RunTime:0.0026s ]
+SQL: UPDATE `wp_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+' WHERE `name` = 'addon_status' [ RunTime:0.0066s ]
+
+[ 2016-11-19T14:13:40+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000868s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000306s ]
+NOTIC: [8] Undefined index: uid /Volumes/FILE/codes/MY-WeiPHP/ThinkPHP/Library/Think/Controller.class.php 第 524 行.
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0015s ]
+SQL: SELECT a.uid,a.group_id,g.title,g.rules FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='-9' and g.status='1' )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: -1 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = -9 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined offset: 14 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 14 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 60 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 60 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: HTTP_REFERER /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 139 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 14 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `wp_public_link` WHERE `uid` = -9  [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/PublicModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: res /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/PublicModel.class.php 第 52 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000291s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000318s ]
+
+[ 2016-11-19T14:13:46+08:00 ] 127.0.0.1 /index.php?s=/Admin/Public/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000756s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+NOTIC: [8] Undefined index: uid /Volumes/FILE/codes/MY-WeiPHP/ThinkPHP/Library/Think/Controller.class.php 第 524 行.
+SQL: SELECT `uid`,`nickname`,`password`,`truename`,`mobile`,`email`,`sex`,`headimgurl`,`city`,`province`,`country`,`language`,`score`,`experience`,`unionid`,`login_count`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`is_init`,`is_audit`,`subscribe_time`,`remark`,`groupid`,`come_from`,`login_name`,`login_password`,`manager_id`,`level`,`membership` FROM `wp_user` WHERE `login_name` = 'admin' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `wp_action` WHERE `name` = 'admin_login' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wp_user` WHERE `uid` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `uid`,`has_public`,`headface_url`,`GammaAppId`,`GammaSecret`,`copy_right`,`tongji_code`,`website_logo` FROM `wp_manager` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `wp_auth_group_access` [ RunTime:0.0015s ]
+SQL: SELECT a.group_id,g.title,g.type,g.icon FROM wp_auth_group_access a INNER JOIN wp_auth_group g on a.group_id=g.id  WHERE ( a.uid='1' and g.status='1' )  [ RunTime:0.0004s ]
+SQL: SELECT `openid`,`token`,`uid`,`has_subscribe`,`syc_status`,`remark` FROM `wp_public_follow` WHERE ( uid='1' )  [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/UserModel.class.php 第 251 行.
+NOTIC: [8] Undefined index:  /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/UserModel.class.php 第 271 行.
+NOTIC: [8] Undefined index:  /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/UserModel.class.php 第 272 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 3297 行.
+NOTIC: [8] Undefined variable: txt /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 3306 行.
+SQL: SELECT `tag_id` FROM `wp_user_tag_link` WHERE `uid` = 1  [ RunTime:0.0002s ]
+SQL: INSERT INTO `wp_action_log` (`action_id`,`user_id`,`action_ip`,`model`,`record_id`,`create_time`,`remark`) VALUES ('12','1','2130706433','user','1','1479536026','admin在2016-11-19 14:13登录了后台') [ RunTime:0.0029s ]
+SQL: UPDATE `wp_user` SET `login_count`=`login_count`+1,`last_login_time`='1479536026',`last_login_ip`='2130706433' WHERE `uid` = 1 [ RunTime:0.0003s ]
+
+[ 2016-11-19T14:13:46+08:00 ] 127.0.0.1 /index.php?s=/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+NOTIC: [8] Undefined index: uid /Volumes/FILE/codes/MY-WeiPHP/ThinkPHP/Library/Think/Controller.class.php 第 524 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: -1 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined offset: 14 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 14 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 60 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 60 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 14 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `wp_public_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/PublicModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: res /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/PublicModel.class.php 第 52 行.
+SQL: SELECT `id`,`title` FROM `wp_addons` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: UPDATE `wp_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+' WHERE `name` = 'addon_status' [ RunTime:0.0032s ]
+SQL: SELECT `id`,`title`,`url` FROM `wp_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0025s ]
+SQL: SELECT `pid` FROM `wp_menu` WHERE ( pid !=0 AND url like '%Index/index%' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-11-19T14:13:46+08:00 ] 127.0.0.1 /index.php?s=/Admin/Config/group.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000746s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+NOTIC: [8] Undefined index: uid /Volumes/FILE/codes/MY-WeiPHP/ThinkPHP/Library/Think/Controller.class.php 第 524 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: -1 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined offset: 14 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 14 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 60 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 60 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 14 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `wp_public_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/PublicModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: res /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/PublicModel.class.php 第 52 行.
+SQL: SELECT `id`,`title` FROM `wp_addons` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: UPDATE `wp_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+' WHERE `name` = 'addon_status' [ RunTime:0.0034s ]
+SQL: SELECT `id`,`title`,`url` FROM `wp_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SELECT `pid` FROM `wp_menu` WHERE ( pid !=0 AND url like '%Config/group%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `group` FROM `wp_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`url` FROM `wp_menu` WHERE `pid` = 68 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `wp_config` WHERE `status` = 1 AND `group` = 1 ORDER BY sort  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036154s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000740s ]
+
+[ 2016-11-19T14:13:47+08:00 ] 127.0.0.1 /index.php?s=/Admin/update/getRemoteVersion.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002565s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+NOTIC: [8] Undefined index: uid /Volumes/FILE/codes/MY-WeiPHP/ThinkPHP/Library/Think/Controller.class.php 第 524 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: -1 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined offset: 14 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 14 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 60 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 60 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 14 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `wp_public_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/PublicModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: res /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/PublicModel.class.php 第 52 行.
+SQL: SELECT `id`,`title` FROM `wp_addons` WHERE `status` = 1  [ RunTime:0.0004s ]
+SQL: UPDATE `wp_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+' WHERE `name` = 'addon_status' [ RunTime:0.0034s ]
+SQL: SELECT `id`,`title`,`url` FROM `wp_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `wp_menu` WHERE ( pid !=0 AND url like '%Update/getRemoteVersion%' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `group` FROM `wp_menu` WHERE `group` <> '' AND `pid` = 68  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`url` FROM `wp_menu` WHERE `pid` = 68 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '系统设置' AND `pid` = 68 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '数据备份' AND `pid` = 68 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000581s ]
+
+[ 2016-11-19T14:16:22+08:00 ] 127.0.0.1 /index.php?s=/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+NOTIC: [8] Undefined index: uid /Volumes/FILE/codes/MY-WeiPHP/ThinkPHP/Library/Think/Controller.class.php 第 524 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: -1 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined offset: 14 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 14 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 60 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 60 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 14 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `wp_public_link` WHERE `uid` = 1  [ RunTime:0.0003s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/PublicModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: res /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/PublicModel.class.php 第 52 行.
+SQL: SELECT `id`,`title` FROM `wp_addons` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: UPDATE `wp_attribute` SET `extra`='111:帐号配置
+93:互动游戏
+18:欢迎语
+19:微信用户中心
+56:自定义菜单
+101:微信卡券
+39:微官网
+42:微信宣传页
+48:自定义回复
+50:微调研
+91:微邀约
+97:微抢答
+100:通用表单
+106:微信红包
+107:竞猜
+108:微贺卡
+110:实物奖励
+126:开发者工具箱
+128:微名片
+130:自动回复
+133:支付通
+134:投票
+137:评论互动
+140:没回答的回复
+141:工作授权
+142:优惠券
+143:帮拆礼包
+144:会员卡
+145:签到
+146:微预约
+151:短信服务
+152:微考试
+153:微测试
+162:微社区
+163:扫码管理
+156:比赛抽奖
+164:一键绑定公众号
+' WHERE `name` = 'addon_status' [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`url` FROM `wp_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0007s ]
+SQL: SELECT `pid` FROM `wp_menu` WHERE ( pid !=0 AND url like '%User/index%' ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT DISTINCT  `group` FROM `wp_menu` WHERE `group` <> '' AND `pid` = 16  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`url` FROM `wp_menu` WHERE `pid` = 16 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '用户管理' AND `pid` = 16 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '行为管理' AND `pid` = 16 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_user` WHERE `status` >= 0 AND `nickname` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `uid`,`nickname`,`password`,`truename`,`mobile`,`email`,`sex`,`headimgurl`,`city`,`province`,`country`,`language`,`score`,`experience`,`unionid`,`login_count`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`is_init`,`is_audit`,`subscribe_time`,`remark`,`groupid`,`come_from`,`login_name`,`login_password`,`manager_id`,`level`,`membership` FROM `wp_user` WHERE `status` >= 0 AND `nickname` LIKE '%%' ORDER BY uid desc LIMIT 0,20   [ RunTime:0.0005s ]
+SQL: SELECT `id`,`title` FROM `wp_auth_group`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `wp_auth_group_access` WHERE `uid` IN ('2','1')  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 4 /Volumes/FILE/codes/MY-WeiPHP/Application/Admin/Controller/UserController.class.php 第 70 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 3297 行.
+NOTIC: [8] Undefined variable: txt /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 3306 行.
+NOTIC: [8192] preg_replace(): The /e modifier is deprecated, use preg_replace_callback instead /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 3297 行.
+NOTIC: [8] Undefined variable: txt /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 3306 行.
+SQL: SELECT `id`,`title` FROM `wp_auth_group` WHERE ( status>0 and manager_id=0 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [8] Undefined variable: 0 /Volumes/FILE/codes/MY-WeiPHP/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 115 行.
+NOTIC: [8] Undefined index: admin_public_count /Volumes/FILE/codes/MY-WeiPHP/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 154 行.
+NOTIC: [8] Undefined index: public_count /Volumes/FILE/codes/MY-WeiPHP/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 155 行.
+NOTIC: [8] Undefined index: audit_time /Volumes/FILE/codes/MY-WeiPHP/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 162 行.
+NOTIC: [8] Use of undefined constant is_admin - assumed 'is_admin' /Volumes/FILE/codes/MY-WeiPHP/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 170 行.
+NOTIC: [8] Undefined index: admin_public_count /Volumes/FILE/codes/MY-WeiPHP/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 154 行.
+NOTIC: [8] Undefined index: public_count /Volumes/FILE/codes/MY-WeiPHP/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 155 行.
+NOTIC: [8] Undefined index: audit_time /Volumes/FILE/codes/MY-WeiPHP/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 162 行.
+NOTIC: [8] Use of undefined constant is_admin - assumed 'is_admin' /Volumes/FILE/codes/MY-WeiPHP/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2016-11-19T14:16:23+08:00 ] 127.0.0.1 /index.php?s=/admin/store/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.000792s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+NOTIC: [8] Undefined index: uid /Volumes/FILE/codes/MY-WeiPHP/ThinkPHP/Library/Think/Controller.class.php 第 524 行.
+SQL: SELECT `id`,`token` FROM `wp_public`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: -1 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/PublicModel.class.php 第 38 行.
+NOTIC: [8] Undefined index: addon_status /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/AddonStatusModel.class.php 第 47 行.
+NOTIC: [8] Undefined index: group_id /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/AddonStatusModel.class.php 第 50 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+SQL: SELECT * FROM `wp_manager_menu` WHERE `uid` = 1 AND `is_hide` = 0 ORDER BY sort asc, id asc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined variable: addons /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Common/function.php 第 501 行.
+NOTIC: [8] Undefined offset: 14 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 14 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined offset: 60 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 106 行.
+NOTIC: [8] Undefined offset: 60 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 116 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined index: side /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 179 行.
+NOTIC: [8] Undefined offset: 14 /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/ManagerMenuModel.class.php 第 185 行.
+SQL: SELECT * FROM `wp_public_link` WHERE `uid` = 1  [ RunTime:0.0004s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/PublicModel.class.php 第 48 行.
+NOTIC: [8] Undefined variable: res /Volumes/FILE/codes/MY-WeiPHP/Application/Common/Model/PublicModel.class.php 第 52 行.
+SQL: SELECT `id`,`title`,`url` FROM `wp_menu` WHERE `pid` = 0 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /Volumes/FILE/codes/MY-WeiPHP/Application/Admin/Controller/AdminController.class.php 第 242 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /Volumes/FILE/codes/MY-WeiPHP/Application/Admin/Controller/AdminController.class.php 第 242 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /Volumes/FILE/codes/MY-WeiPHP/Application/Admin/Controller/AdminController.class.php 第 242 行.
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /Volumes/FILE/codes/MY-WeiPHP/Application/Admin/Controller/AdminController.class.php 第 242 行.
+SQL: SELECT `pid` FROM `wp_menu` WHERE ( pid !=0 AND url like '%Store/index%' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `wp_menu` WHERE `id` = 130 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT DISTINCT  `group` FROM `wp_menu` WHERE `group` <> '' AND `pid` = 130  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`url` FROM `wp_menu` WHERE `pid` = 130 AND `hide` = 0 AND `is_dev` = 0  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant IS_ROOT - assumed 'IS_ROOT' /Volumes/FILE/codes/MY-WeiPHP/Application/Admin/Controller/AdminController.class.php 第 278 行.
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '应用类型' AND `pid` = 130 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0005s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '开发者' AND `pid` = 130 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`pid`,`title`,`url`,`tip` FROM `wp_menu` WHERE `group` = '我是站长' AND `pid` = 130 AND `hide` = 0 AND `is_dev` = 0 ORDER BY sort asc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: callback /Volumes/FILE/codes/MY-WeiPHP/Application/Admin/Controller/StoreController.class.php 第 22 行.
+NOTIC: [8] Undefined index: type /Volumes/FILE/codes/MY-WeiPHP/Application/Admin/Controller/StoreController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined variable: meta_title /Volumes/FILE/codes/MY-WeiPHP/Runtime/Cache/Admin/98a4df6071be47e712bd0ec08c829671.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000989s ]
+
